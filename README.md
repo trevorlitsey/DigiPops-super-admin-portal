@@ -1,4 +1,4 @@
-# DigiPops SuperAdmin Portal
+# DigiPops Super Admin Portal
 
 ## Getting Started
 
