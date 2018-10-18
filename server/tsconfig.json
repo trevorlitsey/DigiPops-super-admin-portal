@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowJs": true,
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "casual": ["node_modules/casual/index.d.ts"] // This mapping is relative to "baseUrl"
+    }
+  }
+}
