@@ -24,8 +24,7 @@ const FilmFilter = props => (
 export const FilmList = props => (
   <List {...props} filters={<FilmFilter />}>
     <Datagrid>
-      <ImageField source="poster" />
-      <TextField source="title" />
+      <TextField label="Title" source="name" />
       <TextField label="Release Year" source="year" />
       <EditButton />
     </Datagrid>

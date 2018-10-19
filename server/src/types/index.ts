@@ -1,6 +1,7 @@
 export type Film = {
   id: string;
   name: string;
+  festivalId?: string;
 };
 
 export type Festival = {
@@ -8,6 +9,7 @@ export type Festival = {
   name: string;
   year: number;
   season: number; // 1-4
+  phaseId: string;
   startDate: Date;
   endDate: Date; // 90 days from start. is this needed?
   theme?: string;
@@ -19,7 +21,8 @@ export type Festival = {
 
 export type Activity = {
   id: string;
-  phase: 'submissions' | 'pops' | 'top pops' | 'finalists' | 'winners';
+  festivalId: string;
+  phaseId: string;
   filmCount: number;
   featuredDays: number;
   activeFans: number;
@@ -27,4 +30,9 @@ export type Activity = {
   activeCredits: number;
   totalJurors: number;
   totalUsers: number;
+};
+
+export type Phase = {
+  id: string;
+  name: string;
 };

@@ -7,13 +7,8 @@ export default () => (
   <Card>
     <CardHeader title="DigiPops Super Admin Portal" />
     <CardContent>
-    <p>Hey there,</p>
-      <p>
-        Welcome to the admin portal. Here you can add/edit/view/delete films, showtimes and other users/admins.
-      </p>
-      <p>
-      <span role="img" aria-describe="celebration">🎉</span>
-      </p>
+      <p>Hey there,</p>
+      <p>Welcome to the admin portal.</p>
     </CardContent>
   </Card>
 );
